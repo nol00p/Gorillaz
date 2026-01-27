@@ -10370,28 +10370,6 @@
 			)
 		)
 	)
-	(global_label "row2"
-		(shape input)
-		(at -41.91 264.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "038c964e-eb32-442a-ab94-6bcd0d06ea1a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.4496 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row13"
 		(shape input)
 		(at 387.35 46.99 180)
@@ -11360,28 +11338,6 @@
 			)
 		)
 	)
-	(global_label "col5"
-		(shape input)
-		(at -41.91 271.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "637c5075-e590-4f84-b77a-e1776b75f03c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.8125 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SYSOFF"
 		(shape input)
 		(at 207.01 49.53 180)
@@ -11598,28 +11554,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row4"
-		(shape input)
-		(at -41.91 261.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "836b0cce-fd6f-42f0-9b6d-bd53e9e84395")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.4496 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12306,50 +12240,6 @@
 			)
 		)
 	)
-	(global_label "row3"
-		(shape input)
-		(at -41.91 279.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce0f79f6-fac4-4330-b3c2-7ed4ee603e6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.4496 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row5"
-		(shape input)
-		(at -41.91 266.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce135d16-5558-460b-a1b4-30e7d1bdc08a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.4496 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col1"
 		(shape input)
 		(at 386.08 83.82 180)
@@ -12368,28 +12258,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col6"
-		(shape input)
-		(at -41.91 269.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d012679d-e8a7-4e65-8066-96167daa23d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.8125 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13283,7 +13151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 157.48 255.27 0)
 			(effects
 				(font
@@ -13327,75 +13195,6 @@
 	)
 	(symbol
 		(lib_id "kicad_port-rescue:LED_ALT-Device")
-		(at 170.18 255.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6520")
-		(property "Reference" "D2"
-			(at 173.1772 254.3048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_NUM"
-			(at 173.1772 256.6162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 170.18 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27b2faa4-14e2-4c3a-8305-db66cfa1323c")
-		)
-		(pin "2"
-			(uuid "feac41d4-e41f-4a98-bd41-063d2eff2ae9")
-		)
-		(instances
-			(project "Gorilaz"
-				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:LED_ALT-Device")
 		(at 182.88 255.27 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13421,7 +13220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 182.88 255.27 0)
 			(effects
 				(font
@@ -13490,7 +13289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 195.58 255.27 0)
 			(effects
 				(font
@@ -13534,75 +13333,6 @@
 	)
 	(symbol
 		(lib_id "kicad_port-rescue:R_US-Device")
-		(at 170.18 247.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6ab7")
-		(property "Reference" "R2"
-			(at 168.4528 248.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 168.4528 246.507 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 169.164 247.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "075bc338-c139-4857-8b5e-f78e6c46deb9")
-		)
-		(pin "2"
-			(uuid "c43bbc2e-68ed-4ae1-9105-52958a55e400")
-		)
-		(instances
-			(project "Gorilaz"
-				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:R_US-Device")
 		(at 157.48 247.65 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13619,7 +13349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 155.7528 246.507 0)
 			(effects
 				(font
@@ -13628,7 +13358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.464 247.396 90)
 			(effects
 				(font
@@ -13665,144 +13395,6 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:R_US-Device")
-		(at 182.88 247.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6c46")
-		(property "Reference" "R3"
-			(at 181.1528 248.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 181.1528 246.507 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 181.864 247.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a3c65c9-c8a2-4f43-97b3-a22d17ef9ebd")
-		)
-		(pin "2"
-			(uuid "4e4e000c-11f9-4557-bda6-fcc38d008f21")
-		)
-		(instances
-			(project "Gorilaz"
-				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:R_US-Device")
-		(at 195.58 247.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6c7a")
-		(property "Reference" "R4"
-			(at 193.8528 248.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 193.8528 246.507 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 194.564 247.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "646148e3-59d9-4b95-a4be-4c1e8c4b699c")
-		)
-		(pin "2"
-			(uuid "1f6bb657-2cfc-4058-9b28-8e634169c1dc")
-		)
-		(instances
-			(project "Gorilaz"
-				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14554,6 +14146,75 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_port-rescue:R_US-Device")
+		(at 182.88 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ca1420-9223-4807-8408-9af68b9fdf53")
+		(property "Reference" "R3"
+			(at 181.1528 248.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 181.1528 246.507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 181.864 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a0234ef-f128-4808-ad0b-8cc9b791313a")
+		)
+		(pin "2"
+			(uuid "922a16ee-c60f-47eb-b835-f9b4fbb79e68")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15810,6 +15471,75 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_port-rescue:LED_ALT-Device")
+		(at 170.18 255.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c8a62ca-d03b-463c-9e5b-a12ad166f8b3")
+		(property "Reference" "D2"
+			(at 173.1772 254.3048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_NUM"
+			(at 173.1772 256.6162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 170.18 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9c94442-9fc1-4643-92eb-599d84dc385e")
+		)
+		(pin "2"
+			(uuid "8c543b9b-94af-4631-a0d5-ff3948064307")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17766,6 +17496,75 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_port-rescue:R_US-Device")
+		(at 170.18 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f1b0557-810f-414d-8ac3-9e361657af66")
+		(property "Reference" "R2"
+			(at 168.4528 248.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.4528 246.507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 169.164 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a1db6a2-5ed3-42f9-af52-074397ccd40e")
+		)
+		(pin "2"
+			(uuid "ab27b74c-1795-45a5-8101-345863865552")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20212,6 +20011,75 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_port-rescue:R_US-Device")
+		(at 195.58 247.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb867057-176b-4d02-a17d-3798a06983a3")
+		(property "Reference" "R4"
+			(at 193.8528 248.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.8528 246.507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.564 247.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d759a1-f395-4e0d-b57c-d6855a52e50d")
+		)
+		(pin "2"
+			(uuid "f7500c1e-0e40-48c0-82e0-ddb883e878a8")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "R4")
 					(unit 1)
 				)
 			)
