@@ -10513,6 +10513,28 @@
 			)
 		)
 	)
+	(global_label "USB-D-"
+		(shape bidirectional)
+		(at 107.95 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d698684-71f6-40fb-9e94-3849eac89bea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3121 144.8594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDCLK"
 		(shape output)
 		(at 71.755 152.4 180)
@@ -11701,28 +11723,6 @@
 			)
 		)
 	)
-	(global_label "USB-D+"
-		(shape bidirectional)
-		(at 107.95 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab8d6731-a86e-4ec5-afbc-c70b6e24fd2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3121 144.8594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col6"
 		(shape input)
 		(at 153.67 161.29 0)
@@ -11961,28 +11961,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB-D-"
-		(shape bidirectional)
-		(at 107.95 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5eee845-d3da-4ccc-a285-5b041560a402")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3121 147.3994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12269,6 +12247,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-D+"
+		(shape bidirectional)
+		(at 107.95 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e00413ef-8669-46f3-89b6-8663aac74a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3121 147.3994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
