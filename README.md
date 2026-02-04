@@ -18,3 +18,4 @@ The pcb design wouldn't have been possible withouth the guide from Moritz ebastl
 I am no pcb designer so I am very much looking for contributions and feedback to get the project to the finish line. 
 
 
+![board](/Docs/pcb3d.png)
