@@ -7033,12 +7033,6 @@
 		(uuid "e3bcd978-e550-4e51-b3ba-5734b9ff902b")
 	)
 	(junction
-		(at 267.97 99.06)
-		(diameter 0.9144)
-		(color 0 0 0 0)
-		(uuid "ea6149ab-d791-4e34-9284-54ed03fc8034")
-	)
-	(junction
 		(at 132.08 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7535,16 +7529,6 @@
 			(type default)
 		)
 		(uuid "1e402a71-b118-461e-a64e-c753b3b5fd89")
-	)
-	(wire
-		(pts
-			(xy 293.37 41.91) (xy 298.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20fbb085-c4ac-4a84-9487-a0d4189924ff")
 	)
 	(wire
 		(pts
@@ -8048,16 +8032,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 41.91) (xy 293.37 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1cf1ae-9240-45c0-9987-cbb6ff0079a3")
-	)
-	(wire
-		(pts
 			(xy 390.525 39.37) (xy 391.16 39.37)
 		)
 		(stroke
@@ -8145,6 +8119,16 @@
 			(type solid)
 		)
 		(uuid "783f8df3-a2f3-49d9-8202-41ba1426d914")
+	)
+	(wire
+		(pts
+			(xy 293.37 41.91) (xy 298.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799df139-fd16-4743-8c1d-27f4bfc0cb77")
 	)
 	(wire
 		(pts
@@ -8318,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 41.91) (xy 288.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abdd2ec-d592-4e56-a7f0-e6fa779a00e5")
+	)
+	(wire
+		(pts
 			(xy 31.75 50.8) (xy 32.385 50.8)
 		)
 		(stroke
@@ -8478,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 46.99) (xy 288.29 53.34)
+			(xy 288.29 48.26) (xy 288.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9118,6 +9112,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 41.91) (xy 293.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e5a536-8297-4fd1-b23f-50731571b5cb")
+	)
+	(wire
+		(pts
 			(xy 32.385 45.72) (xy 36.83 45.72)
 		)
 		(stroke
@@ -9488,6 +9492,28 @@
 			)
 		)
 	)
+	(global_label "LED_BATT_WARN"
+		(shape input)
+		(at 153.67 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "231da5b7-197e-42a2-9634-84f7160e06cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4718 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col6"
 		(shape input)
 		(at 36.83 135.89 0)
@@ -9616,6 +9642,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_BLE"
+		(shape input)
+		(at 153.67 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3413ae79-d36a-4fe5-b436-9b99a3579d75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.517 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10412,28 +10460,6 @@
 			)
 		)
 	)
-	(global_label "LED_BATT_WARN"
-		(shape input)
-		(at 153.67 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e80a66c-94cb-4f2c-8c36-d09000e69664")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4718 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row4"
 		(shape input)
 		(at 36.83 128.27 0)
@@ -10518,28 +10544,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_BLE"
-		(shape input)
-		(at 153.67 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "920a1db1-18a8-4707-a79e-3a68241c15bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.517 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10689,28 +10693,6 @@
 		(uuid "a7316332-8d18-4d4d-b2c5-b939cd88bcf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.5604 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_NUM_LOCK"
-		(shape input)
-		(at 153.67 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa4239a4-fe7c-4050-8c35-c90227b8839a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.0485 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,6 +11182,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_NUM_LOCK"
+		(shape input)
+		(at 153.67 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd363852-ff84-44aa-bba9-636858a65545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.0485 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14871,93 +14875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 267.97 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7580f019-a994-45ee-ad3a-744d00cbec83")
-		(property "Reference" "C7"
-			(at 270.764 101.0666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 270.764 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "X7R, 10%"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "398a943c-51eb-41dd-9ab5-4767294a7682")
-		)
-		(pin "2"
-			(uuid "fddc0280-02ed-4578-a632-4b16e7634577")
-		)
-		(instances
-			(project "Gorilaz"
-				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
 		(at 71.12 63.5 0)
 		(unit 1)
@@ -15353,7 +15270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 288.29 44.45 180)
+		(at 288.29 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15361,7 +15278,7 @@
 		(dnp no)
 		(uuid "8fe97fc3-9da8-43b7-91a3-82ac05b463f1")
 		(property "Reference" "R2"
-			(at 285.75 43.18 0)
+			(at 285.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,7 +15287,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 285.75 45.72 0)
+			(at 285.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +15296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 288.29 44.45 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15388,7 +15305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 44.45 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15397,7 +15314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 44.45 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
