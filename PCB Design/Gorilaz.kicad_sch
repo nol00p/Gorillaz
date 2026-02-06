@@ -16893,7 +16893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Local:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 215.9 52.07 0)
 			(effects
 				(font
