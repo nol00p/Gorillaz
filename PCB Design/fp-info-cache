@@ -1,4 +1,4 @@
-122107684215750
+125648427098042
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71854,6 +71854,20 @@ connector Molex Pico-EZmate side entry
 0
 4
 3
+Local
+gorillaz
+
+
+0
+0
+0
+Local
+gorillaz2
+
+
+0
+0
+0
 Mastarlib
 CON_FH33J-4S-0.5SH
 Hirose FH33J FFC/FPC connector, FH33J-4S-0.5SH, 4 Pins per row (https://www.hirose.com/product/series/FH33#)
