@@ -2707,6 +2707,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_marbastlib-various:TC2030_SWD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TC2030_SWD"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:CON_TC2030_outlined"
+				(at 10.16 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -32.385 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "6-pin TC2030 connector for SWD programming"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "JTAG ARM SWD connector tag connect tc 2030"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IDC?Header*2x03* Pin?Header*2x03*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC2030_SWD_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.048 4.953)
+					(end -3.81 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.048 2.413)
+					(end -3.81 2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.048 -0.127)
+					(end -3.81 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.048 -2.667)
+					(end -3.81 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.953 6.858)
+					(end 5.207 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.953 -5.08)
+					(end 5.207 -4.318)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC2030_SWD_1_1"
+				(pin passive line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_marbastlib-various:nRF52840_moko_mk08"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7245,6 +7506,10 @@
 		(uuid "d55acd62-c1b9-4394-bfe3-73464a273e3d")
 	)
 	(no_connect
+		(at 88.9 165.1)
+		(uuid "d7de6df9-33da-4702-a218-325a766263cc")
+	)
+	(no_connect
 		(at 128.27 191.77)
 		(uuid "d85a8666-2db2-4c0d-b2ce-fa0541698c26")
 	)
@@ -9396,6 +9661,28 @@
 			)
 		)
 	)
+	(global_label "USB-D-"
+		(shape bidirectional)
+		(at 195.58 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "154cd16a-d398-49d7-acde-9240f3994f39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.3381 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ALERT"
 		(shape output)
 		(at 321.31 58.42 0)
@@ -9436,28 +9723,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB-D+"
-		(shape bidirectional)
-		(at 184.15 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16cbd9c2-fb51-4ff9-bb18-9916720c1816")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3919 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9836,6 +10101,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape output)
+		(at 88.9 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d5db968-75d2-452f-9144-5f316889e5b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.0398 159.9406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row1"
 		(shape input)
 		(at 173.99 181.61 0)
@@ -10052,6 +10339,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape bidirectional)
+		(at 88.9 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f249081-3823-48a4-a048-5da62113eaf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.6207 157.5594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10672,6 +10981,28 @@
 			)
 		)
 	)
+	(global_label "SWDCLK"
+		(shape output)
+		(at 88.9 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bf580ab-2cd1-4584-9ce0-afe2e821bfa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.9879 162.4806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col2"
 		(shape input)
 		(at 60.325 45.72 0)
@@ -11178,24 +11509,24 @@
 			)
 		)
 	)
-	(global_label "USB-D-"
+	(global_label "USB-D+"
 		(shape bidirectional)
-		(at 158.75 68.58 180)
+		(at 147.32 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d6ad4be2-07ab-4dc5-801e-91fcc8f563c3")
+		(uuid "d7250e4b-aa90-4b36-abdf-12c53a5f6076")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5081 68.58 0)
+			(at 159.5619 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12141,7 +12472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 224.79 52.07 0)
 			(effects
 				(font
@@ -12764,6 +13095,88 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:TC2030_SWD")
+		(at 95.25 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d10d64e-e506-4b02-9fdd-ed7d1635cd05")
+		(property "Reference" "J9"
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TC2030_SWD"
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mastarlib:CON_TC2030_outlined"
+			(at 105.41 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.865 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de70e452-4a9f-46d7-a352-8eec204ded08")
+		)
+		(pin "2"
+			(uuid "a2cbb30e-e94b-40c1-9997-f6bed1342c94")
+		)
+		(pin "3"
+			(uuid "429804d0-44e3-4e4d-8168-671a134a47e2")
+		)
+		(pin "4"
+			(uuid "d1c8309d-4a63-44e5-8915-9875b49ce621")
+		)
+		(pin "5"
+			(uuid "3d54bae7-c5ce-48f0-ad63-40ff14e5ebd7")
+		)
+		(pin "6"
+			(uuid "61650b4f-a910-4134-82da-cbef90d616e5")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -14161,6 +14574,73 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df3575c-6df4-4417-b2df-8823d340e46f")
+		(property "Reference" "#PWR057"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce96a642-0243-4630-ae76-4725e91b81a4")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16643,6 +17123,72 @@
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd546d64-bc48-4b72-9e8d-e549663c2f94")
+		(property "Reference" "#PWR050"
+			(at 100.33 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 100.33 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9545852e-82b5-4737-b81b-5671d1e249b0")
+		)
+		(instances
+			(project "Gorilaz"
+				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
