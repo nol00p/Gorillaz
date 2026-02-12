@@ -9951,28 +9951,6 @@
 			)
 		)
 	)
-	(global_label "LED_POWER_ON"
-		(shape input)
-		(at 173.99 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fe8b001-8b36-4d0a-8a0f-3359122b11ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.4894 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row6"
 		(shape input)
 		(at 128.27 173.99 180)
@@ -9991,28 +9969,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_BATT_WARN"
-		(shape input)
-		(at 173.99 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "231da5b7-197e-42a2-9634-84f7160e06cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7918 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10167,50 +10123,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_BLE"
-		(shape input)
-		(at 173.99 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3413ae79-d36a-4fe5-b436-9b99a3579d75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.837 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_BATT_WARN"
-		(shape input)
-		(at 281.94 167.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35fb2908-b5a2-426e-89d0-4d4e8703aa6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 149.8382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10721,6 +10633,28 @@
 			)
 		)
 	)
+	(global_label "LED_POWER_ON"
+		(shape input)
+		(at 173.99 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "648508ad-94a3-4b1a-8486-391f1901b2fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.4894 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col3"
 		(shape input)
 		(at 173.99 171.45 0)
@@ -10800,6 +10734,28 @@
 		(uuid "71a0804b-8deb-4c14-ac37-27576d50bf2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.4225 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_BATT_WARN"
+		(shape input)
+		(at 173.99 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74aff7e3-367c-4a10-8d4c-944d165fb646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.7918 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,6 +11051,28 @@
 			)
 		)
 	)
+	(global_label "LED_POWER_ON"
+		(shape input)
+		(at 281.94 167.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a352197f-9d24-4d7d-ae5f-d10039aed250")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.94 150.1406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row2"
 		(shape input)
 		(at 173.99 179.07 0)
@@ -11223,6 +11201,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_BLE"
+		(shape input)
+		(at 173.99 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4ad95eb-367d-46a1-8314-7806328e08e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.837 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11645,28 +11645,6 @@
 			)
 		)
 	)
-	(global_label "LED_POWER_ON"
-		(shape input)
-		(at 240.03 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de3d1ef7-8e9d-4608-99e9-a315e0624f14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 151.4106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ALERT"
 		(shape input)
 		(at 128.27 196.85 180)
@@ -11817,6 +11795,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_BATT_WARN"
+		(shape input)
+		(at 240.03 168.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f29eecc2-6b5a-4f17-b323-491de4d42d0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 151.1082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13548,7 +13548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C15464"
 			(at 243.84 106.68 0)
 			(effects
 				(font
@@ -14214,7 +14214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 97.79 165.1 0)
 			(effects
 				(font
@@ -14612,7 +14612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C2682616"
 			(at 298.45 64.77 0)
 			(effects
 				(font
