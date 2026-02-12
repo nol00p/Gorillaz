@@ -1,4 +1,4 @@
-125648427098042
+143778250761560
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72191,6 +72191,69 @@ split kb tenting puck mechanical mounting
 5
 1
 Mastarlib
+TerminalBlock_Altech_AK300-2_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+2
+2
+Mastarlib
+TerminalBlock_Altech_AK300-3_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+3
+3
+Mastarlib
+TerminalBlock_Altech_AK300-4_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+4
+4
+Mastarlib
+TerminalBlock_Wuerth_691311400102_P7.62mm
+https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
+Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
+0
+2
+2
+Mastarlib
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+Mastarlib
+TerminalBlock_bornier-3_P5.08mm
+simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
+terminal block bornier3
+0
+3
+3
+Mastarlib
+TerminalBlock_bornier-4_P5.08mm
+simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
+terminal block bornier4
+0
+4
+4
+Mastarlib
+TerminalBlock_bornier-5_P5.08mm
+simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5
+terminal block bornier5
+0
+5
+5
+Mastarlib
+TerminalBlock_bornier-6_P5.08mm
+simple 6pin terminal block, pitch 5.08mm, revamped version of bornier6
+terminal block bornier6
+0
+6
+6
+Mastarlib
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
 usb usb-c 2.0 pd
@@ -108401,3 +108464,17 @@ Varistor VF
 0
 2
 2
+easyeda
+CONN-SMD_2P-P5.00_950-D-SMD-DS-02
+
+
+0
+2
+2
+easyeda
+USB-C-SMD_USB-310M-B-SU
+
+
+0
+18
+16
