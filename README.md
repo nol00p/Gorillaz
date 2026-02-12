@@ -1,9 +1,20 @@
 # Gorillaz PCB Boards
 
-This project offers an integrated pcb replacement for the Kinesys Advantage2. the view of this project is to offer a full pcb replacement including the thumb clusters.
-all pcb are fully smd based. The Draw back will be the cost of the solution on order, but the benefit will be solderless solution. 
+This project offers an integrated PCB replacement for the Kinesys Advantage2. The view of this project is to offer a full PCB replacement including the thumb clusters.
+The PCB components are almost fully SMD. The Draw back will be the cost of the solution on order, but the benefit will be solderless solution. 
+
+### How is it different from other mods
+
+Aside from being a fun project the main goal of this is to offer a simplified approach to Kinesys moddiing. 
+- solder free installation (as much as possible)
+- battery management with the ability to wake the board up from sleep by pressing a key (not possible with the nice!nano)
+- Bluetooth
+
+If there are feature you would like to see supported on the board, do get in touch. 
+note that I am not planning on supporting the pedals at this stage.
 
 ### The Hardware
+
 
 ### The Software
 the firmware will be ZMK. 
