@@ -12371,7 +12371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_CAPS"
+		(property "Value" "LED_BATT_WARN"
 			(at 243.0272 181.6862 90)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6b6550")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 284.9372 178.1048 90)
 			(effects
 				(font
@@ -12440,7 +12440,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_SCR"
+		(property "Value" "LED_PWON"
 			(at 284.9372 180.4162 90)
 			(effects
 				(font
@@ -12485,7 +12485,7 @@
 		(instances
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c8a62ca-d03b-463c-9e5b-a12ad166f8b3")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 272.2372 178.1048 90)
 			(effects
 				(font
@@ -14286,7 +14286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_NUM"
+		(property "Value" "LED_BLE"
 			(at 272.2372 180.4162 90)
 			(effects
 				(font
@@ -14331,7 +14331,7 @@
 		(instances
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14800,7 +14800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6450e4fe-b2dc-497f-9388-86b97fa4786c")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 273.05 99.06 90)
 			(effects
 				(font
@@ -14818,7 +14818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
 			(at 280.67 100.33 90)
 			(effects
 				(font
@@ -14863,7 +14863,7 @@
 		(instances
 			(project "Gorilaz"
 				(path "/46ef0abf-42df-44ff-8272-0b82956755c4"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
